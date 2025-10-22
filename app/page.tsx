@@ -27,6 +27,14 @@ export default function Page() {
       <p className="text-slate-400 text-sm">Thời gian hiện tại:</p>
       <p className="text-sky-400 text-lg font-mono mt-1">{timeString}</p>
       <footer className="text-slate-500 text-xs mt-6">Next.js + Vercel</footer>
+      <a
+          href="https://github.com/huy746/duanthankyou"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sky-400 underline hover:text-teal-300"
+        >
+          Xem mã nguồn
+        </a>
     </main>
   )
       }
