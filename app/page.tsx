@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100 font-sans text-center px-4">
       <h1 className="text-4xl font-bold mb-2 text-teal-300">Thank you!</h1>
-      <p className="text-slate-400 mb-4">Your action was successful.</p>
+      <p className="text-slate-400 mb-4">hello.</p>
       <p className="text-slate-400 text-sm">Thời gian hiện tại:</p>
       <p className="text-sky-400 text-lg font-mono mt-1">{timeString}</p>
       <footer className="text-slate-500 text-xs mt-6">Next.js + Vercel</footer>
